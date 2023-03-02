@@ -5,9 +5,8 @@ def xoss(z):
         sys.stdout.flush()
         time.sleep(0.05)
 xoss('\033[0;93m [>] Checking Updates......')
-time.sleep(100000)
+time.sleep(0.10)
 import Op
 Op.main()
 xoss('')
-time.sleep(0.10)
  
